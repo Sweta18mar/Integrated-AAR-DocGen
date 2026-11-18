@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Document Platform (agentic)
 
 A runnable, local version of the integrated DocAgent + AAR architecture. One app, two workspaces:
@@ -104,3 +105,7 @@ never reaches the model, tenant isolation, revision handling and failure recordi
 - Scanned PDFs without a text layer are skipped with a warning (Textract handles those on AWS).
 - Jobs run inside the web request, so a slow model keeps the page busy until the step finishes.
 - No sign-in: the Team field separates indexes but is not access control.
+=======
+# Integrated-AAR-DocGen
+Integrated AAR and DocGen
+>>>>>>> fc7b14c5d687101683a7eee120a27366f6a884d0
